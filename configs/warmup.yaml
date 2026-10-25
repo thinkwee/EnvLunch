@@ -1,0 +1,21 @@
+# Warm-up settings: turn limit, brevity weight w, perturbed copies K, row-deletion fraction.
+max_response_len: 8192
+repeat_limit: 3
+obs_max_chars: 600
+
+sql:
+  max_turns: 16
+  min_turns: 0
+  bonus_weight: 0.5
+  max_new_tokens: 8192
+  copies: 2
+  drop_frac: 0.3
+
+frame:
+  max_turns: 48
+  min_turns: 3
+  bonus_weight: 0.5
+  max_new_tokens: 8192
+  copies: 3
+  drop_frac: 0.3
+  scale_amp: 0.4
