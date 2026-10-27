@@ -1,6 +1,6 @@
 # EnvLunch
 
-Code for *EnvLunch: The Environment as a Free Lunch for Learning to Interact*.
+Code for *[EnvLunch: The Environment as a Free Lunch for Learning to Interact](https://arxiv.org/abs/2610.33817)*.
 
 ## Setup
 
